@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./kros.css";
+import "./Kros.css";
 import { Link } from "react-router-dom";
 import axios from "../../api/index";
 
