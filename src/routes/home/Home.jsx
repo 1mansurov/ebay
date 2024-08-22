@@ -4,7 +4,6 @@ import Navs from '../../components/Navs';
 import Categories from '../categories/Categories';
 import TrendingKicks from '../trending-kicks/TrendingKicks';
 import Deals from '../deals/Deals';
-// import Kros from '../../components/krasofka/Kros';
 
 const Home = () => {
   return (
