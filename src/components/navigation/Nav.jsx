@@ -1,13 +1,14 @@
 import React from 'react';
 import './Nav.css';
 import navimg from '../../images/nav.svg'
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <div className="nav">
       <div className="nav__content">
         <ul className="nav__links">
-          <li>Hi! <a href="#">Sign in</a> or <a href="#">register</a></li>
+          <li>Hi! <Link to='/login'>Sign in</Link> or <a href="#">register</a></li>
           <li><a href="#">Daily Deals</a></li>
           <li><a href="#">Brand Outlet</a></li>
           <li><a href="#">Help & Contact</a></li>
@@ -29,7 +30,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className="nav__search">
-        <img src="navimg" alt="eBay" className="nav__logo" />
+        <img src={navimg} alt="eBay" className="nav__logo" />
         <input type="text" placeholder="Search for anything" className="nav__searchInput" />
         <button className="nav__searchButton">Search</button>
         <a href="#" className="nav__advancedSearch">Advanced</a>
