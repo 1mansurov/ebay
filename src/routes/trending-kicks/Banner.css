@@ -1,0 +1,82 @@
+/* Banner.css */
+
+.banner {
+    display: flex;
+    border: 1px solid #d1d1d1;
+    height: 250px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .banner-left, .banner-middle, .banner-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner-left {
+    width: 35%;
+    margin: auto;
+  }
+  
+  .featured {
+    color: #666;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .brand {
+    color: #0064d2;
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .banner-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .product-image {
+    max-height: 150px;
+    margin: 0 10px;
+  }
+  
+  .banner-right {
+    width: 25%;
+    text-align: right;
+  }
+  
+  .right-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .right-image {
+    max-height: 150px;
+  }
+  
